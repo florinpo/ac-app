@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* ---------------------------------------------------------------------- */
+/* contact list view
+/* ---------------------------------------------------------------------- */
+/***=== .contact-list-mailbox ===***/
+.contact-list-mailbox {
+	margin:0 15px;
+}
+.contact-list-wrapper {
+	float:left;
+	width:310px;
+	min-height:300px;
+	margin:0 0px 0 0;
+	padding:0 0 0 0px;
+	position:relative;
+}
+#contact-list {
+}
+#contact-list .loader-indicator {
+	position:absolute;
+	left:80px;
+	top:50%;
+	display:none;
+}
+#contact-list .empty {
+	display:block;
+	margin-top:15px;
+	text-align:center;
+}
+#contact-list .actions-wrapper {
+	border-bottom: solid 1px #CCC;
+	padding:0px 5px 0 5px;
+	height:40px;
+}
+#contact-list .actions-wrapper .button-checkbox {
+	display:inline-block;
+	float:left;
+	margin-top:14px;
+}
+#contact-list .button-checkbox {
+	color:#8b8b8b;
+}
+#contact-list .btn-group {
+	margin:12px 15px 0 0;
+}
+#contact-list .btn-group > a{
+	color: #222;
+	font-size:13px;
+}
+#contact-list .btn-group > a:hover {
+	text-decoration:none;
+	color: #427538;
+}
+#contact-list .dropdown-menu {
+	min-width: 180px;
+}
+#contact-list .dropdown-menu a .icon {
+	margin-right:4px;
+	display:none;
+}
+#contact-list .dropdown-menu a.checked {
+	color:#333;
+}
+#contact-list .dropdown-menu a.checked .icon {
+	display:inline-block;
+}
+ul.contacts-items li {
+	padding: 10px 5px 8px 5px;
+	border-bottom: solid 1px #ddd;
+	font-size:13px;
+}
+ul.contacts-items li.selected {
+	cursor: pointer;
+	border-color:#CCC;
+	background-color:#eee;
+}
+ul.contacts-items li.hover {
+	cursor: pointer;
+	background-color:#f3f3f3;
+	border-color:#CCC;
+}
+ul.contacts-items li spam.cUser{
+	margin:0 0 0 10px;
+	display:block;
+	float:left;
+}
+ul.contacts-items li .button-checkbox {
+	float:left;
+	margin:2px 0 0 0;
+	color:#999;
+}
+
+/*** cview ***/
+.cview {
+	float:left;
+	width:410px;
+	margin:0 0px 0 0px;
+	padding:0px;
+	position:relative;
+}
+.cview .header {
+	height:40px;
+	padding:0 10px;
+	margin:0;
+	border-bottom:solid 1px #ccc;
+	border-left: solid 1px #CCC;
+	background-color: #f3f3f3;
+}
+.cview .header h2 {
+	line-height:18px;
+	font-size:16px;
+	font-weight:normal;
+	margin:5px 0 0 5px;
+	display:block;
+	float:left;
+	padding:5px 3px;
+}
+.cview .loader {
+	position:absolute;
+	left:34%;
+	top:40%;
+	display:none;
+}
+.cview .content {
+	border-top:solid 1px #fff;
+	border-left: solid 1px #CCC;
+	background-color: #f3f3f3;
+	min-height:300px;
+	padding:15px;
+}
+.cview .content p {
+	margin:0;
+}
+/*** contact-view ***/
+.contact-view {
+	display:none;
+}
+.contact-view .actions {
+	background-color:#EEE;
+	height:40px;
+	border-bottom: solid 1px #CCC;
+	border-left: solid 1px #CCC;
+}
+.contact-view .actions a {
+	color:#222;
+	font-size:13px;
+	margin:12px 15px 0 20px;
+	display:inline-block;
+}
+.contact-view .actions a:hover {
+	text-decoration:none;
+	color: #427538;
+}
+.contact-view .actions a span {
+	display:inline-block;
+	float:left;
+}
+.contact-view .actions a .icon {
+	font-size:14px;
+	margin-right:6px;
+	color:#7ba174;
+}
+.contact-view .actions a .icon-mail {
+	margin-top:2px;
+}
+.contact-view .content {
+	background-color:#FFF;
+}
+.cview .contact-view h2 {
+	line-height:18px;
+	font-size:16px;
+	font-weight:normal;
+	margin:0px 0 15px 0;
+	padding:0px 0 8px 5px;
+	border-bottom: solid 1px #dddddd;
+}
+.cview .contact-view .thumbnail {
+	float:left;
+	background-color:#eeeeee;
+	border: solid 1px #cccccc;
+	padding:4px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+.cview .contact-view .thumbnail img {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+.cview .contact-view .contact-details {
+	float:left;
+	margin-left:10px;
+}
+/*** multiple-view ***/
+.cview .multiple-selected {
+	display:none;
+}
+.cview .multiple-selected .header {
+	background-color:#EEE;
+}
+.cview .multiple-selected .actions {
+	min-height:300px;
+	background-color:#EEE;
+	border-left: solid 1px #CCC;
+}
+.box-action {
+	width:310px;
+	margin:30px auto 10px auto;
+}
+.box-action h3 {
+	font-size:15px;
+	font-weight:normal;
+	color:#666;
+	margin:3px 0 0 0;
+}
+.box-action p {
+	margin:5px 0 0 0;
+	color:#434343
+}
+.box-action .btn {
+	margin:10px 0 0 0;
+	background:#FFF;
+}
+.box-action .btn:hover {
+	background-color:#ededed;
+	color:#444;
+}
+.box-action .col-l {
+	float:left;
+	width:45px;
+}
+.box-action .col-l .icon {
+	font-size:42px;
+	color:#7ba174;
+}
+.box-action .col-r {
+	float:left;
+	width:255px;
+	padding-left:10px;
+}
+
+
+/***=== contact-list-dialog ===***/
+.contact-list-dialog .available-list {
+	float:left;
+	width:310px;
+	margin:0 0px 0 0;
+	padding:0 0 0 0px;
+}
+
+.contact-list-dialog .selected-list {
+	float:left;
+	width:310px;
+	margin:0 0px 0 0;
+	padding:0 0 0 0px;
+}
+
+
+

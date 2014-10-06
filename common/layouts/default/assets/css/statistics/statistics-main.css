@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* ---------------------------------------------------------------------- */
+/* Statistics main layout
+/* ---------------------------------------------------------------------- */
+#statistics .box_round_c {
+	position:relative;
+}
+#statistics .loading-wrapper {
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:100%;
+	background-color:#FFF;
+	z-index:99;
+	opacity: 0.65;
+	filter: alpha(opacity=65);
+	display:none;
+}
+#statistics .loader-indicator {
+	position:absolute;
+	left:40%;
+	top:44%;
+	z-index:100;
+	display:none;
+}
+#statistics .actions-bar {
+	margin:15px 15px 5px 15px;
+}
+#statistics .actions-bar label {
+	font-weight:bold;
+	color:#8c8c8c;
+	margin-right:5px;
+}
+#statistics .ds-btn {
+	font-weight:bold;
+	font-size:11px;
+}
+.metric-options {
+	margin:6px 15px 8px 15px;
+	text-align:right;
+}
+.metric-options .m-op {
+	margin-right:15px;
+	float:left;
+}
+.metric-options #op-0 .icon-radio {
+	color:#69a55d;
+}
+.metric-options #op-1 .icon-radio {
+	color:#adcaa6;
+}
+.metric-options label {
+	float:left;
+	margin-left:5px;
+	font-weight:bold;
+	color:#8c8c8c;
+}
+/*** chart ***/
+.chart-wrapper {
+	margin:10px 10px 40px 10px;
+}
+.chart-placeholder {
+	width:100%;
+	height: 300px;
+}
+.chart-placeholder .flot-x2-axis .tickLabel {
+	margin:0 0px 0 0px;
+	padding: 2px 0 2px 5px;
+	border-left: dashed 1px #c3c3c3;
+	line-height:11px;
+	text-align:left !important;
+	color:#7c7c7c;
+	background-color:#eee;
+	font-weight:bold;
+	text-transform:uppercase;
+	vertical-align:bottom !important;
+}
+.chart-placeholder .odd {
+	background-color:#f3f3f3 !important;
+}
+
+/*** statistics-grid ***/
+#statistics .box_widget {
+	margin:25px 15px 15px 15px;
+}
+#statistics .date-info {
+	margin-left:5px;
+	padding: 8px;
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+	color:#555555;
+	background-color:#f9f9f9;
+}
+
+
+/*** grid bar form and filters ***/
+

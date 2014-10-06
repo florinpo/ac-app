@@ -1,0 +1,7 @@
+.cke_wordcount {display:block; float:right; margin:0px;}
+.cke_wordcount span {font-weight: normal !important;}
+/*.cke_path_item {font-weight: normal; font-size:11px; letter-spacing: 0.02em; color: #777;}*/
+.cke_count_toggle {font: inherit}
+.cke_green .cke_count_toggle { color:#090 }
+.cke_red .cke_count_toggle { color: #F00; }
+.cke_wordcountLimitReached span {color: #F00 !important;}

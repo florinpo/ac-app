@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+/* ---------------------------------------------------------------------- */
+/* Products manage layout
+/* ---------------------------------------------------------------------- */
+#products-manage .notification-box {
+	margin:0 0 15px 0;
+}
+#products-manage .box_widget {
+	margin:15px;
+}
+#product-grid .grid_100 {
+	width:100px;
+}
+#product-grid td.status {
+	text-transform:uppercase;
+	color:#686868;
+	font-size:11px;
+}
+.product-item-wrapper {
+}
+.product-item-wrapper .item-thumbnail {
+	float:left;
+	width:100px;
+	padding: 4px;
+	border: solid 1px #ddd;
+	background-color:#eee;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+.product-item-wrapper .item-thumbnail img {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	width:100px;
+	height:100px;
+}
+.product-item-wrapper .item-info {
+	float:left;
+	margin-left:20px;
+}
+.product-item-wrapper .item-title {
+	margin:5px 0 0 0;
+}
+.product-item-wrapper .item-actions {
+	margin-top:15px;
+}
+.product-item-wrapper .vd-separator {
+	height:14px;
+	display:block;
+	float:left;
+	height:28px;
+}
+.product-item-wrapper .ilabel {
+	padding:4px 3px;
+	font-weight:bold;
+	margin:0 10px;
+	color: #7c7c7c;
+	font-size:11px;
+}
+.product-item-wrapper .bFirst{
+	margin-right:7px;
+}
+.product-item-wrapper .item-date {
+	color:#6c6c6c;
+	font-size:11px;
+	margin:15px 0 0 0;
+}
+
+/*** grid bar form and filters ***/
+.gr-search-form {
+	max-width:350px;
+}
+.gr-search-form form {
+	margin:0;
+	padding:0;
+}
+.gr-search-form .row {
+	margin:0;
+	padding:0;
+}
+.gr-search-form label {
+	float:left;
+	font-weight:normal;
+	color:#545454;
+	font-size:11px;
+}
+.gr-search-form input.keyword {
+	width:290px;
+	font-size:11px;
+}
+.gr-search-form .labelIn label {
+	margin: 5px 0 0 10px;
+	color:#999;
+}
+.gr-filters {
+	max-width:320px;
+}
+.gr-filters a {
+	font-weight:normal;
+}
+.gr-filters .btn-group {
+	margin:4px 8px 0 0;
+}
+.gr-filters .dropdown-menu a .icon {
+	margin-right:4px;
+	display:none;
+}
+.gr-filters .dropdown-menu a.checked {
+	color:#333;
+}
+.gr-filters .dropdown-menu a.checked .icon {
+	display:inline-block;
+}
+
+

@@ -1,0 +1,1 @@
+<?php echo t('site', 'Sorry no results found!'); ?>

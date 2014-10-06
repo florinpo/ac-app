@@ -1,0 +1,338 @@
+@charset "utf-8";
+/* ---------------------------------------------------------------------- */
+/* Forms
+/* ---------------------------------------------------------------------- */
+
+/* ------------------------ */
+/* Form styling elements 
+/* ------------------------ */
+
+/***=== tags (tagit) === ***/
+ul.tagit {
+    padding: 1px 5px;
+    overflow: auto;
+    margin-left: inherit; /* usually we don't want the regular ul margins. */
+    margin-right: inherit;
+	font-size:12px;
+}
+ul.tagit li {
+    display: block;
+    float: left;
+    margin: 2px 5px 2px 0;
+}
+ul.tagit li.tagit-choice {    
+    position: relative;
+    line-height: inherit;
+}
+input.tagit-hidden-field {
+    display: none;
+}
+ul.tagit li.tagit-choice-read-only { 
+    padding: .2em .5em .2em .5em; 
+} 
+ul.tagit li.tagit-choice-editable { 
+    padding: .2em 18px .2em .5em; 
+} 
+ul.tagit li.tagit-new {
+    padding: .25em 4px .25em 0;
+}
+ul.tagit li.tagit-choice a.tagit-label {
+    cursor: pointer;
+    text-decoration: none;
+}
+ul.tagit li.tagit-choice .tagit-close {
+    cursor: pointer;
+    position: absolute;
+    right: .1em;
+    top: 50%;
+    margin-top: -8px;
+    line-height: 17px;
+}
+/* used for some custom themes that don't need image icons */
+ul.tagit li.tagit-choice .tagit-close .text-icon {
+    display: none;
+}
+ul.tagit li.tagit-choice input {
+    display: block;
+    float: left;
+    margin: 2px 5px 2px 0;
+}
+ul.tagit input[type="text"] {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    background-color: inherit;
+    outline: none;
+}
+
+
+/***=== selectbox === ***/
+/*** sort-form dropdowns ***/
+.sort-form .sbHolder {
+	width:auto;
+	float:left;
+	margin: 0 0px 0 10px;
+	background-color: #ffffff;
+	border:0;
+	padding:0;
+}
+.sort-form .sbSelector {
+	height:20px;
+	line-height:20px;
+	padding-right:14px;
+	margin:0;
+	color:#0b710f;
+}
+.sort-form .sbToggle {
+	background:none;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	vertical-align: top;
+	border-top: 4px solid #000000;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	content: "";
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	margin: 7px 0 0 0;
+}
+.sort-form .sbToggleOpen {
+	opacity: 0.6;   filter: alpha(opacity=60);
+}
+.sort-form .sbOptions {
+	background-color: #fff;
+	border: 1px solid #4c4c4c;
+	border-bottom-color:#CCC;
+	border-left-color:#CCC;
+	border-bottom-right-radius:0px;
+	border-bottom-left-radius:2px;
+	-moz-border-bottom-left-radius:2px;
+	-webkit-border-bottom-left-radius:2px;
+	left:auto;
+	right:0;
+	padding:5px 0;
+}
+.sort-form .sbOptions a {
+	border-bottom: none;
+	text-align:right;
+	padding: 4px 10px;
+}
+.sort-form .sbOptions li.selected a {
+	color:#999;
+	cursor:default;
+}
+
+
+input, textarea, button, select {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+	text-shadow: inherit;/*-webkit-appearance: none;
+	appearance: none;
+	*/
+}
+input[type="text"], input[type="password"], textarea {
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	color: #7d7d7d;
+	padding: 6px 7px;
+	border: 1px solid #d7d7d7;
+	display: inline-block;
+	background: #fdfdfd;
+	height: 26px;
+}
+input.r-only {
+	background-color: #eef7e1;
+	border-color: #dbe7c8;
+}
+textarea {
+	overflow: auto; /* removes scrollbar in IE */
+	resize:vertical; 
+	height: auto;
+}
+input[type="file"] {
+  color: transparent;
+}
+
+select {
+	color: #7d7d7d; 
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	padding: 4px 6px;
+	border: 1px solid #d7d7d7;
+	background: #fdfdfd;
+	width:100%;
+}
+select > option {
+	padding:0 7px;
+}
+
+
+/* Fix for Mobile Safari */
+input[type="checkbox"] {
+	-webkit-appearance: checkbox;
+}
+input[type="radio"] {
+	-webkit-appearance: radio;
+}
+input[type="submit"] {
+	font-size:11px;
+	font-weight:bold;
+}
+input, button {
+	line-height: normal;
+}
+button {
+	border: none;
+	background: none;
+}
+input[type="submit"] {
+	overflow: visible;	/* removes extra horizontal padding in IE7 */
+	width: auto;
+}
+
+::-webkit-input-placeholder { /* Chrome, Safari */
+ color: #999;
+}
+/* Firefox */
+:-moz-placeholder {
+ color: #999;
+}
+::-moz-focus-inner { /* removes the extra padding and dotted border on buttons in Firefox */
+ padding: 0;
+ border: none;
+}
+
+form label {
+	display: block;
+	padding: 4px 8px 2px 0;
+	font-weight: bold;
+	color:#767676;
+}
+form label.required {
+	padding-left:8px;
+	padding-right:0px;
+}
+form label.required:after {
+	content:" *";
+	color:#F00;
+}
+
+form .hidden {
+	display:none;
+}
+form .visible {
+	display:block;
+}
+form .center {
+	text-align:center;
+}
+form .errorMessage {
+	color:#F00;
+	padding: 0 0 0 18px;
+	margin-top:5px;
+	display:block;
+	background:url(../images/icons/error.png) no-repeat 0 2px;
+}
+form input.error {
+	border: 1px solid #ff2020;
+}
+/*** errorSummary ***/
+form .errorSummary {
+	margin:0 0 10px 0;
+	padding:3px 10px;
+	background-color:#f2dada;
+	border: solid 1px #e9c0c0;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+form .errorSummary > ul > li {
+	color:#F00;
+	padding: 0 0 0 18px;
+	margin-top:3px;
+	display:block;
+	background:url(../images/icons/error.png) no-repeat 0 2px;
+}
+/*** InField Labels ***/
+form .labelIn {
+	position:relative;
+}
+form .labelIn input, form .labelIn textarea {
+	display: block;
+	margin: 0;
+}
+form .labelIn label {
+	display: none;
+	margin: 6px 0 0 6px;
+	padding: 0;
+	color:#888;
+	cursor: text;
+}
+/*** Characters counter ***/
+.counterT, .character-counter-main-wrapper {
+	color:#888;
+}
+.character-counter-wrapper, .characters-remaining-wrapper {
+	display:inline;
+	margin:0 5px 0 5px;
+}
+.counterT.character-counter-limit-exceeded, .character-counter.red {
+	color: #F00;
+}
+.character-counter.green {
+	color:#090;
+}
+.form-wrapper {
+	margin:15px;
+}
+.tabnav-body .form-wrapper {
+	margin:0 15px;
+}
+.form-wrapper p.info, .form-wrapper p.info-d, p.info {
+	margin:0px 0 0 0px;
+	text-indent:0;
+	padding:0;
+	color:#8c8c8c;
+}
+.row {
+	margin:15px 0;
+}
+.row.first {
+	margin-top:20px;
+}
+.row .hint-i {
+	padding:4px 0 2px 0;
+	display:block;
+	float:left;
+	color:#999;
+}
+
+.box-form {
+	margin:10px auto;
+}
+.box-form h3 {
+	font-weight:600;
+	color:#333;
+	margin:0 0 20px 0;
+	text-indent:0;
+	padding:3px 5px;
+	font-size:14px;
+	line-height:17px;
+	border-bottom: solid 1px #ccc;
+}
+.box-form-a {
+	margin:10px auto;
+}
+

@@ -1,0 +1,236 @@
+
+html {
+    font-size:100%;
+}
+body {
+    font-size:62.5%;
+    color:#000;
+    font-family:Helvetica, Arial, sans-serif;
+}
+a {
+    text-decoration:underline;
+    color:#000;
+}
+a:hover {
+    text-decoration:none;
+    font-size:#333;
+}
+a:active {
+    outline:0;
+}
+a:visited {
+}
+a.top {
+    padding-left:10px;
+}
+.left {
+    float:left!important;
+}
+.right {
+    float:right!important;
+}
+.clear {
+    clear:both;
+}
+img.left {
+    margin:0 1em 1em 0;
+}
+img.right {
+    margin:0 0 1em 1em;
+}
+.padding {
+    padding:10px;
+}
+#content p {
+    margin:1.1em 0;
+}
+h1 {
+    font-size:2em;
+    color:000;
+    font-weight:bold;
+}
+h2 {
+    font-size:1.2em;
+    color:#000;
+    font-weight:bold;
+}
+h3 {
+    font-size:1em;
+    color:#333;
+    font-weight:bold;
+}
+h4 {
+    font-size:1em;
+    color:#000;
+    font-weight:normal;
+}
+em {
+    color:#333;
+}
+strong {
+    color:#000;
+}
+
+
+/* ------------------------------------------------------------------------------------
+BODY			 */
+
+.top_bar {
+    border-bottom: solid 1px #298dcd;
+    clear: both;
+    padding: 5px;
+}
+/* ------------------------------------------------------------------------------------
+NAVIGATION MENU				 */
+
+#navigation {
+    margin:10px 0;
+}
+#navigation ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    line-height:1;
+    float:left;
+}
+#navigation a {
+    display:block;
+    padding:6px 10px;
+    text-decoration:none;
+}
+#navigation a:hover {
+    text-decoration:underline;
+    padding:6px 10px;
+}
+#navigation li {
+    padding:0;
+    margin:0;
+    float:left;
+    width:auto;
+}
+#navigation li ul li {
+    padding:1px 0px;
+}
+#navigation li ul li a {
+    padding:6px 10px;
+    width:110px;
+}
+#navigation li ul {
+    position:absolute;
+    padding-top:1px;
+    width:130px;
+    left:-999em;
+}
+#navigation li ul ul {
+    margin: -1.5em 0 0 130px;
+}
+#navigation li:hover ul ul, #navigation li:hover ul ul ul, #navigation li.sfhover ul ul, #navigation li.sfhover ul ul ul {
+    left: -999em;
+}
+#navigation li:hover ul, #navigation li li:hover ul, #navigation li li li:hover ul, #navigation li.sfhover ul, #navigation li li.sfhover ul, #navigation li li li.sfhover ul {
+    left: auto;
+}
+
+/*** sidebar-l ***/
+
+.sidebar-l {
+    width:300px;
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    height: auto;
+}
+
+.sidebar-l ul {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.sidebar-l ul li {
+    padding: 6px 0 3px 0;
+    margin:0;
+    float:none;
+}
+
+.sidebar-l ul li a{
+     color: darkorange;
+}
+
+/*** sidebar-l boxes ***/
+
+.sidebar-l .box-sidebar-l {
+    font-size: 12px;
+    padding: 5px;
+    margin: 10px 0;
+    border: solid 1px #ccc;
+    clear:both;
+}
+
+.sidebar-l .box-sidebar-l h3 {
+    font-size: 14px;
+}
+
+.sidebar-l .box-sidebar-l a {
+    display:block;
+    margin: 7px 0 0 0;
+}
+
+
+/*** sidebar-l Blocks ***/
+
+#province-wrapper {
+    display: none;
+    padding:5px;
+    border:1px solid #ccc;
+    position:absolute;
+    width:820px;
+    background-color: #ffffff;
+    margin-top: 5px;
+}
+#province-wrapper ul {
+    font-size: 12px;
+    padding: 5px;
+}
+#province-wrapper ul li{
+    padding: 6px 0 3px 0;
+    float:left;
+    width:160px;
+}
+#province-wrapper ul li a{
+    color:#009;
+}
+
+/*** Info wide ***/
+.info {
+    width:600px;
+    float: left;
+    margin: 0 0 0 10px;
+    height: auto;
+}
+/* ------------------------------------------------------------------------------------
+STRUCTURE					 */
+
+#container {
+    overflow:hidden;
+    font-size:1.5em;
+}
+#header {
+}
+img.logo {
+}
+#footer {
+    clear:both;
+    padding:40px 0;
+    font-size:1.4em;
+    margin-top:21px;
+}
+#content {
+}
+#right {
+}
+#left {
+}
+
+
+/* ------------------------------------------------------------------------------------
+CUSTOM						 */

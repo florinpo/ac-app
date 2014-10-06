@@ -1,0 +1,13 @@
+*.DS_Store
+*.project
+backend/assets/*
+backend/protected/runtime/*
+backend/protected/cache/*
+web/assets/*
+web/protected/runtime/*
+web/protected/cache/*
+backend/.htaccess
+web/.htaccess
+resources/*
+images/*
+bills/*

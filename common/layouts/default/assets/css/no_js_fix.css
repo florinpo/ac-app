@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ---------------------------------------------------------------------- */
+/* no-js fixes
+/* ---------------------------------------------------------------------- */
+
+/* Search Form */
+.no-js #search-form #keyword {
+	width:460px;
+	margin-left:-1px;
+}
+.no-js #search-form #search-options {
+	width: 140px;
+    height: 30px;
+    overflow: hidden;
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    text-shadow:none;
+	padding:5px;
+	font-weight:bold;
+	color: #666;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.no-js #search-form #search-options option {
+	font-weight:normal;
+	border: 1px dotted #f5f5f5;
+	background:#fff;
+	padding:3px 5px;
+}
+
+
+
+

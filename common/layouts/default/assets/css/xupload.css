@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------------------------------------------------------------------- */
+/* blueimp/jQuery-File-Upload 
+------------------------------------------------------------------------- */
+.upload-form .progress {
+	height:10px;
+	width:184px;
+}
+.upload-form .label.error {
+	color:#F00;
+    padding: 0 0 0 18px;
+	margin-top:0px;
+	display:inline-block;
+	background: url(../images/icons/error.png)  no-repeat 0 2px;
+}
+.table {
+	margin-bottom:10px;
+	border-collapse:collapse;
+}
+.table tr {
+	width:100%;
+	border-bottom:1px solid #eee;
+	color:#444;
+}
+
+.table td.preview {
+	width:100px;
+}
+.table td.preview img {
+	margin:10px;
+	width:80px;
+	height:80px
+}
+.table td.preview span {
+	display:block;
+	margin:10px;
+}
+.table td.preview canvas {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+.table td.preview .fade canvas {
+	vertical-align:middle;
+}
+.table td.name {
+	width:190px;
+}
+.table td.name span {
+	display:block;
+	margin:10px;
+}
+.table td.size {
+	width:90px;
+}
+.table td.size span {
+	display:block;
+	margin:10px;
+	color:#777;
+}
+.table td.delete,
+.table td.cancel {
+	width:100px;
+}
+.table td.delete .btn-t,
+.table td.cancel .btn-t {
+	margin:10px 10px 10px 0;
+}
+.table td.delete .cToogle {
+	display:inline-block;
+	margin:12px 0 0px 0;
+	padding:0;
+	vertical-align:top;
+}
+.table td.error {
+	width:290px;
+}
+.table td.error span.name {
+	margin:10px 10px 0px 10px;
+	display:block;
+}
+.table td.error span.error {
+	margin:5px 10px 10px 10px;
+}
+
+/*** Single file (logo or avatar)***/
+.single div.template-download {
+	display:block;
+	clear:both;
+}
+.single div.template-upload .error,
+.single div.template-upload .progress {
+	margin-top:10px;
+}
+.single .action-bar {
+    padding:0;
+	line-height:inherit;
+}
+

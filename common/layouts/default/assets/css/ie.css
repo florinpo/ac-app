@@ -1,0 +1,303 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ---------------------------------------------------------------------- */
+/* Theme Information
+/* ----------------------------------------------------------------------
+Name: Mundus
+Description: Business & Portfolio Theme
+Version: 3.0.2
+Author: Ixtendo
+Author URI: http://www.ixtendo.com
+------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/* Mundus IE Styles
+/* ----------------------------------------------------------------------
+TABLE OF CONTENTS
+
+-IE7 Styles
+-IE8 Styles
+-Less than or Equal to IE8 Styles
+-Less than or Equal to IE9 Styles
+------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/* IE7 Styles
+/* ---------------------------------------------------------------------- */
+
+/* Generic */
+
+.ie7 #header,
+.ie7 .sf-menu a, 
+.ie7 .quote-content .bottom div,
+.ie7 .twitter-widget ul li,
+.ie7 #filter a span,
+.ie7 .page-nav,
+.ie7 .page-nav li span,
+.ie7 .entry-thumb a,
+.ie7 .toggle h4, 
+.ie7 .accordion h4,
+.ie7 .entry-author,
+.ie7 .entry-tags,
+.ie7 .entry-social,
+.ie7 #comments,
+.ie7 #respond {
+	zoom: 1;
+}
+
+.ie7 #main {
+	position: relative;
+}
+
+.ie7 #header {
+	z-index: 99;
+}
+
+/* Cursors */
+
+.ie7 .entry-thumb a,
+.ie7 a.lightbox,
+.ie7 a.large-button,
+.ie7 a.more-button,
+.ie7 #filter a,
+.ie7 .page-nav a {
+	cursor: pointer;	
+}
+
+/* Navigation */
+
+.ie7 .sf-menu ul {
+	background-color: #4c4c4c;
+}
+
+/* Forms */
+
+.ie7 input, 
+.ie7 textarea, 
+.ie7 button,
+.ie7 select {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #474747;
+}
+
+.ie7 button#subscribe {
+	width: 88px;
+	height: 31px;
+}
+
+.ie7 .button#subscribe span.text {
+	width: 56px;
+	height: 15px;	
+}
+
+.ie7 #comment-form input#submit {
+	filter: chroma(color=#000000); /* removes the black border around the input element */
+}
+
+.ie7 #contact-form button#submit {
+	width: 115px;
+	height: 31px;
+}
+
+.ie7 #contact-form button#submit span.text {
+	width: 83px;
+	height: 15px;
+}
+
+/* Slider */
+
+.ie7 .nivo-caption {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000);   
+}
+
+/* Buttons */
+
+.ie7 a.more-button span {
+	display: inline-block;
+	float: none;
+}
+
+.ie7 a.more-button span.arrow { 
+	display: block; /* Negative text-indent works in IE only if this is added. */
+}
+
+.ie7 .large-button-wrap {
+	display: inline;	
+}
+
+/* Tags */
+
+.ie7 ul.tags a {
+	white-space: nowrap;	
+}
+
+/* Homepage */
+
+.ie7 .homepage #content {
+	margin-top: 102px; 
+}
+
+/* Lists */
+
+.ie7 ul.disc, .ie7 ul.disc ul, 
+.ie7 ul.square, .ie7 ul.square ul,
+.ie7 ul.checkmarked ul,
+.ie7 ul.checkboxed ul,
+.ie7 ol.decimal ul,
+.ie7 ol.upper-roman ul,
+.ie7 ol.lower-alpha ul,
+.ie7 ol.upper-alpha ul {
+	margin-left: 16px;
+}
+
+.ie7 ul.disc ol,
+.ie7 ul.square ol,
+.ie7 ul.checkmarked ol,
+.ie7 ul.checkboxed ol,
+.ie7 ol.decimal, .ie7 ol.decimal ol,
+.ie7 ol.upper-roman, .ie7 ol.upper-roman ol,
+.ie7 ol.lower-alpha, .ie7 ol.lower-alpha ol,
+.ie7 ol.upper-alpha, .ie7 ol.upper-alpha ol {
+	margin-left: 25px;	
+}
+
+/* Tables */
+
+.ie7 .gen-table caption {
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+/* Filter & Pagination */
+
+.ie7 #filter ul, .ie7 #filter li,
+.ie7 .page-nav ul, .ie7 .page-nav li, .ie7 .page-nav > span {
+	display: inline;
+}
+
+/* Portfolio */
+
+.ie7 ul.portfolio-grid > li {
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+/* Blog */
+
+.ie7 #comments h3 a,
+.ie7 #reply-title small { 
+	margin-top: 0;
+	position: relative;
+	bottom: 19px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* IE8 Styles
+/* ---------------------------------------------------------------------- */
+
+/* Slider */
+
+.ie8 .nivo-caption {
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000)";     
+}
+
+/* ---------------------------------------------------------------------- */
+/* Less than or Equal to IE8 Styles
+/* ---------------------------------------------------------------------- */
+
+/* Navigation */
+
+.lte-ie8 .sf-menu > li, .lte-ie8 .sf-menu > li:hover, .lte-ie8 .sf-menu > li.current {
+	background: url(../images/ie-fallback/nav-divider.png) no-repeat right top !important;
+	padding-right: 2px;
+}
+
+.lte-ie8 .sf-menu > li:hover > a, .lte-ie8 .sf-menu > li.current > a {
+	background-color: #4c4c4c;
+	background-image: url(../images/ie-fallback/nav-bg.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+.lte-ie8 .sf-menu ul {
+	border: 1px solid #525252;
+}
+
+.lte-ie8 .sf-menu ul li {
+	background-color: #4c4c4c;
+	border-top: 1px dotted #666;
+}
+
+.lte-ie8 .sf-menu ul li:first-child {
+	border-top: none;
+}
+
+.lte-ie8 .sf-menu ul li:hover {	
+	background-color: #424242;
+}
+
+/* Language Switcher */
+
+.lte-ie8 #polyglotLanguageSwitcher ul.dropdown {  
+	border: 1px solid #525252;
+}
+
+.lte-ie8 #polyglotLanguageSwitcher ul.dropdown li { 	
+	background-color: #4c4c4c;
+	border-top: 1px dotted #666;
+}
+
+.lte-ie8 #polyglotLanguageSwitcher ul.dropdown li:hover {
+	background-color: #424242;
+}
+
+/* Forms */
+
+.lte-ie8 #s {
+	background-image: url(../images/ie-fallback/search-shadow.png);
+	background-repeat: repeat-x;
+	background-position: left top;	
+}
+
+/* Slider */
+
+.lte-ie8 .nivo-caption {
+	background: transparent; 
+	zoom: 1;	
+}
+
+/* Menu with Separators */
+
+.lte-ie8 .widget ul.menu li > a:hover, .lte-ie8 .widget ul.menu li.current-menu-item > a {
+	background-color: #e5e5e5;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Less than or Equal to IE9 Styles
+/* ---------------------------------------------------------------------- */
+
+/* Navigation */
+
+.lte-ie9 #navbar {
+	background-image: url(../images/ie-fallback/nav-bg.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+.lte-ie9 #navbar-inner {
+	background-image: url(../images/ie-fallback/nav-bg.png);
+	background-repeat: repeat-x;
+	background-position: left -150px;
+}
+
+.lte-ie9 .sf-menu > li:hover, .lte-ie9 .sf-menu > li.current {
+	background-image: url(../images/ie-fallback/nav-bg.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}

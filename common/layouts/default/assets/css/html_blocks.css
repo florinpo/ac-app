@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------------------------------------------------------------------- */
+/* Login panel
+/* ---------------------------------------------------------------------- */
+#login-panel {
+
+}
+#login-panel h2{
+	margin:10px 10px 10px 30px;
+	font-weight:600;
+	color:#000;
+}
+#login-panel .login-info {
+	margin:0 0 20px 30px;
+}
+#login-panel a.b-grey-s {
+	margin:0 0 0 0;
+}
+#login-panel .login-info p{
+	font-weight:bold;
+	color:#444;
+	margin:0 0 3px 0px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Register
+/* ---------------------------------------------------------------------- */
+#register-company, #register-user {
+	margin-top: 10px;
+}
+#register-company .btn-l, #register-user .btn-l {
+	margin:0px 0 20px 20px;
+}
+#register-company .btn-l span.inner {
+	background: #4f7a46;
+}
+#register-company .btn-l span.text {
+	background: #eee;
+	padding: 9px 15px;
+}
+#register-company .btn-l:hover span.text {
+	background: #fff;
+}
+
+#register-company.box_widget.alpha{
+	margin-right:5px;
+}
+#register-user.box_widget.omega{
+	margin-left:5px;
+}
+#register-company p.intro-y, 
+#register-user p.intro-y {
+	font-weight:bold;
+	color:#444;
+	font-size:13px;
+}
+#register-company p.intro-y {
+	color:#FFF;
+}
+#register-company ul, 
+#register-user ul {
+	width:260px;
+	margin:15px 10px 10px 15px;
+}
+#register-company ul li,
+#register-user ul li {
+	padding: 1px 0 0 22px;
+	margin-bottom:8px;
+}
+#register-company ul li {
+	background: url(../images/icons/checkmark-white.png) no-repeat left 0px;
+}
+#register-company a.b-green-n,
+#register-user a.b-green-n {
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:5px 10px 20px 20px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Premium Offer
+/* ---------------------------------------------------------------------- */
+
+#premium-offer .label-info {
+	width:300px;
+	margin-left:15px;
+	margin-right:8px;
+}
+#premium-offer .label-info .box-tip .content {
+	padding: 1em 5px;
+	height:69px;
+}
+#premium-offer .label-info h2 {
+	font-weight:600;
+	margin:5px 0;
+	padding:0;
+	line-height: 24px;
+	color: #FF0;
+	text-align:center;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+}
+#premium-offer .label-info .info {
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+	font-size:12px;
+	margin:0;
+	padding:0;
+}
+#premium-offer .label-info ul.items {
+	padding: 10px 0;
+	margin-top:10px;
+	font-weight:bold;
+	color:#666;
+}
+#premium-offer .label-info ul.items li {
+	padding: 5px 3px;
+	border-top: 1px dotted #e5e5e5;
+}
+#premium-offer .label-info ul.items li:first-child {
+	border: none;
+}
