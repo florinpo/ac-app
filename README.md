@@ -1,6 +1,7 @@
 
-# _AC-APP - sample project_
-_B2C project based on the sample project of the GXC-CMS (https://github.com/nganhtuan63/Sample-Project)
+# _AC-APP - source_
+- B2C project based on the sample project of the GXC2-CMS (https://github.com/nganhtuan63/Sample-Project
+- the source/core can be found at https://github.com/florinpo/ac-source
 
 ## Additional features
 
